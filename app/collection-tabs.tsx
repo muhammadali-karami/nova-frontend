@@ -11,7 +11,6 @@ const works = [
   { image: '935d9585d37bf778', title: 'رنگ‌هایی برای حال خوب', post: 'DbLZBw3jaMI' },
   { image: 'b95e4d087a935dfa', title: 'دسته گلِ بنفش و سفید', post: 'DZVUHhQtlpB' },
   { image: '27e3162e3a9c3117', title: 'رزهای صورتی و روبان', post: 'Db8fEkeNuFo' },
-  { image: '237a1b8537e2a818', title: 'هدیه‌ای به رنگ رز', post: 'Db8fEkeNuFo' },
   { image: '96e69a2bb4aa5d39', title: 'گل‌های سرخِ خاص', post: 'DbLZBw3jaMI' },
   { image: 'ffd98d3e161e8057', title: 'باکس رزهای صورتی', post: 'Db8fEkeNuFo' },
   { image: 'e1497a6e04d9c195', title: 'ترکیبِ لطیف یاسی', post: 'DbYlN-nDdVE' },
