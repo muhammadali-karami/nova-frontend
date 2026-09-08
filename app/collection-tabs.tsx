@@ -12,7 +12,7 @@ const works = [
   { image: 'b95e4d087a935dfa', title: 'دسته گلِ بنفش و سفید', post: 'DZVUHhQtlpB' },
   { image: '27e3162e3a9c3117', title: 'رزهای صورتی و روبان', post: 'Db8fEkeNuFo' },
   { image: '96e69a2bb4aa5d39', title: 'گل‌های سرخِ خاص', post: 'DbLZBw3jaMI' },
-  { image: 'ffd98d3e161e8057', title: 'باکس رزهای صورتی', post: 'Db8fEkeNuFo' },
+  { image: 'ffd98d3e161e8057', title: ' گل های زیبای پرنده بهشتی', post: 'Dax8Y3atg3L' },
   { image: 'e1497a6e04d9c195', title: 'ترکیبِ لطیف یاسی', post: 'DbYlN-nDdVE' },
   { image: '14f74092b1079cca', title: 'باکس گلِ آبی و سفید', post: 'DbLZBw3jaMI' },
   { image: '2e398e0bb123d05c', title: 'باکسی برای یک خاطره', post: 'DbDxBP6DT2n' },
