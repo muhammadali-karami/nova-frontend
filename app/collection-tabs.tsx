@@ -6,16 +6,16 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 const instagram = 'https://www.instagram.com/nova_flower_garden/';
 
 const works = [
-  { image: '6c076527ed7429d3', title: 'سفید و سبزِ جاودانه', post: 'DcJWyAxt3Ba' },
-  { image: 'e857c30d687c4d6a', title: 'بنفش برای یک عصر خاص', post: 'Dbqq1Aijbm_' },
-  { image: '935d9585d37bf778', title: 'رنگ‌هایی برای حال خوب', post: 'DbLZBw3jaMI' },
-  { image: 'b95e4d087a935dfa', title: 'دسته گلِ بنفش و سفید', post: 'DZVUHhQtlpB' },
-  { image: '27e3162e3a9c3117', title: 'رزهای صورتی و روبان', post: 'Db8fEkeNuFo' },
-  { image: '96e69a2bb4aa5d39', title: 'گل‌های سرخِ خاص', post: 'DbLZBw3jaMI' },
-  { image: 'ffd98d3e161e8057', title: ' گل های زیبای پرنده بهشتی', post: 'Dax8Y3atg3L' },
-  { image: 'e1497a6e04d9c195', title: 'ترکیبِ لطیف یاسی', post: 'DbYlN-nDdVE' },
-  { image: '14f74092b1079cca', title: 'باکس گلِ آبی و سفید', post: 'DbLZBw3jaMI' },
-  { image: '2e398e0bb123d05c', title: 'باکسی برای یک خاطره', post: 'DbDxBP6DT2n' },
+  { image: 'nova-DcJWyAxt3Ba', title: 'جار گل سفید و سبز', post: 'DcJWyAxt3Ba' },
+  { image: 'nova-Db8fEkeNuFo', title: 'سبد رز صورتی با مروارید', post: 'Db8fEkeNuFo' },
+  { image: 'nova-Dbqq1Aijbm_', title: 'جار گل بنفش و سفید', post: 'Dbqq1Aijbm_' },
+  { image: 'nova-DbYlN-nDdVE', title: 'گل‌های بنفش در گلدان طلایی', post: 'DbYlN-nDdVE' },
+  { image: 'nova-DbLZBw3jaMI', title: 'چیدمان سرخ و صورتی', post: 'DbLZBw3jaMI' },
+  { image: 'nova-DbDxBP6DT2n', title: 'باکس گل آبی و سفید', post: 'DbDxBP6DT2n' },
+  { image: 'nova-Da-np_RDcl2', title: 'سبد گل آبی و کرم', post: 'Da-np_RDcl2' },
+  { image: 'nova-Da41AkPDYWm', title: 'جار ارکیده و گل‌های صورتی', post: 'Da41AkPDYWm' },
+  { image: 'nova-Dax8Y3atg3L', title: 'پرنده بهشتی در گلدان آبی', post: 'Dax8Y3atg3L' },
+  { image: 'nova-DanqpSMt8KW', title: 'جار ارکیده و رز هلویی', post: 'DanqpSMt8KW' },
 ];
 
 export function CollectionTabs() {
