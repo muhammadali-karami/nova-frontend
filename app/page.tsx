@@ -1,7 +1,8 @@
-import { ArrowUpLeft, ArrowDown, Camera, MessageCircle, MapPin } from 'lucide-react';
+import { ArrowUpLeft, ArrowDown, Camera, MessageCircle, MapPin, Phone } from 'lucide-react';
 import { CollectionTabs } from './collection-tabs';
 const instagram = 'https://www.instagram.com/nova_flower_garden/';
 const whatsapp = 'https://wa.me/message/FEEB5UGSMPNGA1';
+const phone = 'tel:+989386063164';
 export default function Home() {
  return <>
   <a className="skip" href="#main">رفتن به محتوای اصلی</a>
@@ -18,7 +19,7 @@ export default function Home() {
    <div className="ribbon" aria-label="انواع گل‌آرایی"><span>سبد و باکس گل</span><i>✳</i><span>دسته گل</span><i>✳</i><span>جار گل</span><i>✳</i><span>طراحی اختصاصی</span><i>✳</i><span dir="ltr">A LITTLE BLOOM. A LOT OF LOVE.</span></div>
    <section id="collection" className="collection wrap"><div className="section-top"><div><p className="eyebrow">منتخبی از گل‌های نُوا</p><h2>هر چیدمان،<br className="mobile-break"/> یک قصه‌ی تازه.</h2></div><a className="text-link" href={instagram} target="_blank" rel="noreferrer">همه‌ی نمونه‌کارها <ArrowUpLeft size={19}/></a></div><CollectionTabs /></section>
    <section id="about" className="about"><div className="wrap about-inner"><p className="eyebrow">فلسفه‌ی نُوا <span dir="ltr">/ OUR STORY</span></p><h2>زیبایی، در کنار هم<br/>قرار گرفتنِ <em>جزئیات</em> است.</h2><div className="about-copy"><p>یک رنگ دلخواه، یک مناسبت خاص، یا فقط میل به خوشحال کردن یک نفر. در نُوا، از همین حس‌های کوچک شروع می‌کنیم و با گل‌های تازه به آن‌ها شکل می‌دهیم.</p><p>سبد و باکس گل، دسته گل یا یک جار کوچک؛ با چیدمانی اختصاصی برای احساسی که می‌خواهی بگویی.</p><a className="text-link" href={whatsapp} target="_blank" rel="noreferrer">از ایده‌ات برای ما بگو <ArrowUpLeft size={19}/></a></div></div></section>
-   <section id="contact" className="contact wrap"><p className="eyebrow">یک گفت‌وگو تا یک دسته گل</p><h2>چه حسی را<br/>می‌خواهی <em>هدیه بدهی؟</em></h2><p>رنگ، مناسبت و سلیقه‌ات را برایمان بگو.<br/>برای انتخاب گل‌ها کنارت هستیم.</p><div className="contact-actions"><a className="button primary" href={whatsapp} target="_blank" rel="noreferrer"><MessageCircle size={20}/> سفارش در واتس‌اپ <ArrowUpLeft size={20}/></a><a className="button outline" href={instagram} target="_blank" rel="noreferrer"><Camera size={19}/> اینستاگرام نُوا</a></div><span className="delivery"><MapPin size={15}/> ارسال در تهران</span></section>
+   <section id="contact" className="contact wrap"><p className="eyebrow">یک گفت‌وگو تا یک دسته گل</p><h2>چه حسی را<br/>می‌خواهی <em>هدیه بدهی؟</em></h2><p>رنگ، مناسبت و سلیقه‌ات را برایمان بگو.<br/>برای انتخاب گل‌ها کنارت هستیم.</p><div className="contact-actions"><a className="button primary" href={whatsapp} target="_blank" rel="noreferrer"><MessageCircle size={20}/> سفارش در واتس‌اپ <ArrowUpLeft size={20}/></a><a className="button outline" href={phone}><Phone size={19}/> تماس برای سفارش</a><a className="button outline" href={instagram} target="_blank" rel="noreferrer"><Camera size={19}/> اینستاگرام نُوا</a></div><a className="order-phone" href={phone} dir="ltr"><Phone size={16}/> 0938 606 3164</a><span className="delivery"><MapPin size={15}/> ارسال در تهران</span></section>
   </main>
   <footer className="footer wrap"><a className="brand" href="#"><img src="/images/2108972699cdc2f4.jpg" alt="" width="48" height="48"/><span>باغ گل نُوا<small dir="ltr">NOVA FLOWER GARDEN</small></span></a><p>هر گل، یک شروع تازه‌ست.</p><a href={instagram} target="_blank" rel="noreferrer" dir="ltr">@nova_flower_garden <ArrowUpLeft size={16}/></a></footer>
  </>;
