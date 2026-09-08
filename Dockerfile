@@ -19,4 +19,4 @@ COPY --from=build /app/dist ./dist
 
 EXPOSE 3001
 
-CMD ["./node_modules/.bin/wrangler", "dev", "--config", "dist/server/wrangler.json", "--ip", "0.0.0.0", "--port", "3000"]
+CMD ["./node_modules/.bin/wrangler", "dev", "--config", "dist/server/wrangler.json", "--ip", "0.0.0.0", "--port", "3001"]
