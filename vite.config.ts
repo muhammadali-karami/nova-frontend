@@ -50,7 +50,11 @@ export default defineConfig(async () => {
       ? { watch: { useFsEvents: false, usePolling: true } }
       : undefined,
     plugins: [
-      vinext(),
+      vinext(
+        process.env.STATIC_EXPORT === 'true'
+          ? { nextConfig: { output: 'export' } }
+          : undefined,
+      ),
       sites(),
       cloudflare({
         viteEnvironment: { name: 'rsc', childEnvironments: ['ssr'] },
