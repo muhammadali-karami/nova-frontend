@@ -20,13 +20,13 @@ const works = [
 ];
 
 export function CollectionTabs() {
-  return <Carousel opts={{ align: 'start', direction: 'ltr' }} className="work-carousel" aria-label="نمونه‌کارهای باغ گل نوا" dir="ltr">
-    <CarouselContent className="-ml-3">
-      {works.map((work, index) => <CarouselItem className="pl-3 basis-[82%] sm:basis-[47%] lg:basis-[30%]" key={work.image}>
+  return <Carousel opts={{ align: 'start', direction: 'rtl' }} className="work-carousel" aria-label="نمونه‌کارهای باغ گل نوا" dir="rtl">
+    <CarouselContent className="-mr-3">
+      {works.map((work, index) => <CarouselItem className="pr-3 basis-[82%] sm:basis-[47%] lg:basis-[30%]" key={work.image}>
         <a className="work" href={`${instagram}p/${work.post}/`} target="_blank" rel="noreferrer" dir="rtl"><div className="work-photo"><img src={`/images/${work.image}.jpg`} width="720" height="960" alt={`${work.title}؛ نمونه‌کار واقعی باغ گل نوا`} loading={index < 3 ? 'eager' : 'lazy'}/><span className="work-open" aria-label="مشاهده در اینستاگرام"><ArrowUpLeft size={21}/></span></div><div className="work-title"><h3>{work.title}</h3><span dir="ltr">{String(index + 1).padStart(2, '0')}</span></div><p>گل‌آرایی اختصاصی نُوا</p></a>
       </CarouselItem>)}
     </CarouselContent>
-    <CarouselNext className="carousel-go-left" aria-label="حرکت اسلایدر به چپ" />
-    <CarouselPrevious className="carousel-go-right" aria-label="حرکت اسلایدر به راست" />
+    <CarouselPrevious className="carousel-go-left" aria-label="حرکت اسلایدر به چپ" />
+    <CarouselNext className="carousel-go-right" aria-label="حرکت اسلایدر به راست" />
   </Carousel>;
 }
