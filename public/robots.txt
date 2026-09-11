@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nova-flower-garden.muhammadali-karami.chatgpt.site/sitemap.xml
